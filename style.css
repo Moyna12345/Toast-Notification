@@ -7,20 +7,25 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
-    --dark: #34495E;
+    --dark: #0080ff;
     --light: #ffffff;
-    --success: #0ABF30;
-    --error: #E24D4C;
-    --WARNING: #E9BD0C;
-    --info: #3498DB;
+    --success: #00ff37;
+    --error: rgb(252, 0, 0);
+    --WARNING: #ffcc00;
+    --info: #0099ff;
 }
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: var(--dark);
+    background:rgb(28, 17, 192);
+    /* background: var(--dark); */
 }
+/* .bodu Toast {
+    color:blanchedalmond;
+    top: 10px;
+} */
 .notifications {
     position: fixed;
     top: 30px;
